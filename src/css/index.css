@@ -187,6 +187,11 @@
     font-size: 14px;
 }
 
+.content__paragraph-mobail {
+    width: 288px;
+    height: 90px;
+}
+
 .content__arrow {
     display: flex;
     align-items: center;
