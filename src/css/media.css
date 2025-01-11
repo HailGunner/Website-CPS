@@ -1,0 +1,153 @@
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .container__wrapper {
+        display: flex; 
+        align-items: center;
+        padding: 0;
+    }
+
+    .container__burger {
+        margin: 24px 20px 24px 24px;
+    }
+
+    .container__one-line {
+        display: block;
+        margin: 28px 20px 28px 0px;
+    }
+
+    .container__logo {
+        margin: 18px 250px 18px 0px
+    }
+
+    .container__call {
+        display: block;
+        margin: 24px 16px 24px 0px;
+    }
+
+    .container__chat {
+        display: block;
+        margin: 24px 16px 24px 0px;
+    }
+
+    .container__profile {
+        display: block;
+        margin: 20px 24px 20px 0px;
+    }
+
+    .container__two-line {
+        margin: 28px 20px 28px 0px;
+    }
+
+    .container__repair {
+        margin: 24px 16px 24px 0px;
+    }
+
+    .container__checkstatus {
+        margin: 24px 24px 24px 0px;
+    }
+
+    .content {
+        width: 769px;
+        height: 416px;
+        background-color: rgba(248, 248, 248, 1);
+    }
+
+    .content__heading {
+        margin-left: 20px;
+    }
+
+    .content__list {
+        margin-left: 24px;
+    }
+
+    .content__text {
+        display: flex;
+        margin: 32px 0px 0px 24px;
+    }
+
+    .content__paragraph-mobail {
+        display: none;
+    }
+
+    .content__paragraph-tablet {
+        display: inline-block;
+        width: 312px;
+        height: 160px;
+    }
+
+    .content__arrow {
+        margin: 10px 0px 54px 8px;
+    }
+
+    .content__table-CPS {
+        display: inline-block;
+        width: 360px;
+        height: 208px;
+        margin: 0px 25px 0px 24px;
+        border-radius: 8px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .container {
+        display: none;
+    }
+
+    .container__wrapper {
+        display: flex;
+        justify-items: center;
+    }
+    
+    .content {
+        width: 1120px;
+        height: 535px;
+    }
+  
+    .content__heading {
+        margin: 42px 400px 8px 32px;
+    }
+
+    .content__block-btn {
+        display: block;
+        display: flex;
+        align-items: center;
+        height: 40px;
+        margin: 42px 32px 8px 0px;
+    }
+
+    .content__text-menu {
+        font-weight: 500;
+        font-size: 16;
+    }
+
+    .content__list {
+        flex-wrap: wrap;
+    }
+
+    .container__bid {
+        margin-right: 8px;
+    }
+
+    .content__repair {
+
+    }
+
+    .content__paragraph-tablet {
+        display: none;
+    }
+
+    .content__paragraph-desktop {
+        display: block;
+        width: 490px;
+        height: 160px;
+    }
+
+    .content__table-CPS {
+        width: 531.35px;
+        height: 307px;
+    }
+
+}
