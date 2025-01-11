@@ -50,7 +50,7 @@
     }
 
     .content {
-        width: 769px;
+        width: 100%;
         height: 416px;
         background-color: rgba(248, 248, 248, 1);
     }
@@ -100,14 +100,35 @@
         display: flex;
         justify-items: center;
     }
+
+    .container__bid {
+        margin-right: 8px;
+    }
     
     .content {
-        width: 1120px;
+        width: 100%;
         height: 535px;
     }
-  
+
+    .content__title {
+        display: flex;
+        flex-wrap: nowrap; 
+    }
+
     .content__heading {
-        margin: 42px 400px 8px 32px;
+        margin: 42px 383px 0px 32px;
+    }
+
+    .content__bid {
+        margin-right: 8px;
+    }
+
+    .content__repair {
+        margin-right: 32px;
+    }
+
+    .content__status {
+        margin-right: 9px;
     }
 
     .content__block-btn {
@@ -115,7 +136,7 @@
         display: flex;
         align-items: center;
         height: 40px;
-        margin: 42px 32px 8px 0px;
+        margin: 42px 32px 0px 0px;
     }
 
     .content__text-menu {
@@ -125,14 +146,28 @@
 
     .content__list {
         flex-wrap: wrap;
+        margin: 0;
     }
 
-    .container__bid {
-        margin-right: 8px;
+    .content__brend {
+        display: block;
+        margin-left: 40px;
     }
 
-    .content__repair {
+    .content__reviews {
+        margin-left: 42px;
+    }
 
+    .content__service {
+        display: none;
+    }
+
+    .content__text {
+        margin-top: 10px;
+    }
+
+    .content__full-text {
+        margin: 0px 0px 0px 15px;
     }
 
     .content__paragraph-tablet {
@@ -143,6 +178,10 @@
         display: block;
         width: 490px;
         height: 160px;
+    }
+
+    .content__arrow {
+        margin: 0;
     }
 
     .content__table-CPS {

@@ -49,6 +49,10 @@
 .container__btn:active  {
     filter: brightness(0.8);
 }
+
+.container__svg {
+    padding-top: 5px;
+}
  
 .container__logo {
     width: 96.55px; 
@@ -121,6 +125,7 @@
     border-radius: 20px;
     width: 40px;  
     height: 40px;
+    padding: 10px;
     background: #ff3e79;
     border: none;
     cursor: pointer;
@@ -200,6 +205,10 @@
 
 .content__paragraph-desktop {
     display: none;
+}
+
+.content__img-arrow {
+    margin-right: 8px;
 }
 
 .content__table-CPS {
