@@ -1,6 +1,12 @@
+@media (min-width: 321px) {
+    .container__two-line {
+        display: none;
+    }
+}
+
 @media (min-width: 768px) {
     .container {
-        width: 768px;
+        width: 100%;
     }
 
     .container__wrapper {
@@ -38,6 +44,7 @@
     }
 
     .container__two-line {
+        display: block;
         margin: 28px 20px 28px 0px;
     }
 
@@ -63,9 +70,14 @@
         margin-left: 24px;
     }
 
+    .content__adress {
+        display: none;
+    }
+
     .content__text {
         display: flex;
         margin: 32px 0px 0px 24px;
+        flex-wrap: nowrap;
     }
 
     .content__paragraph-mobail {
@@ -74,7 +86,7 @@
 
     .content__paragraph-tablet {
         display: inline-block;
-        width: 312px;
+        width: 90%;
         height: 160px;
     }
 
@@ -84,8 +96,8 @@
 
     .content__table-CPS {
         display: inline-block;
-        width: 360px;
-        height: 208px;
+        width: 100%;
+        height: auto;
         margin: 0px 25px 0px 24px;
         border-radius: 8px;
     }
@@ -94,11 +106,6 @@
 @media (min-width: 1120px) {
     .container {
         display: none;
-    }
-
-    .container__wrapper {
-        display: flex;
-        justify-items: center;
     }
 
     .container__bid {
@@ -116,6 +123,7 @@
     }
 
     .content__heading {
+        width: 70%;
         margin: 42px 383px 0px 32px;
     }
 
@@ -134,8 +142,10 @@
     .content__block-btn {
         display: block;
         display: flex;
+        justify-content: end;
         align-items: center;
         height: 40px;
+        width: 100%;
         margin: 42px 32px 0px 0px;
     }
 
@@ -157,8 +167,13 @@
         display: none;
     }
 
+    .content__adress {
+        display: block;
+    }
+
     .content__text {
         margin-top: 10px;
+        flex-wrap: nowrap;
     }
 
     .content__full-text {
@@ -171,7 +186,7 @@
 
     .content__paragraph-desktop {
         display: block;
-        width: 490px;
+        width: 98%;
         height: 160px;
     }
 
@@ -180,8 +195,8 @@
     }
 
     .content__table-CPS {
-        width: 531.35px;
-        height: 307px;
+        width: 100%;
+        height: auto;
     }
 
 }
